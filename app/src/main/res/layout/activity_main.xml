@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#BFAADD"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/ed1"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="70sp"
+        android:gravity="center"
+
+        android:hint="ENTER EMAIL "
+
+        android:inputType="textEmailAddress"></EditText>
+
+    <EditText
+        android:id="@+id/ed2"
+        android:layout_width="350dp"
+
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="40sp"
+        android:gravity="center"
+        android:hint="ENTER PASSWORD"
+        android:inputType="textPassword"></EditText>
+
+    <EditText
+        android:id="@+id/ed3"
+        android:layout_width="350dp"
+
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="40sp"
+        android:gravity="center"
+        android:hint="ENTER NAME"
+        android:inputType="textPassword"></EditText>
+
+    <Button
+        android:id="@+id/insert"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20sp"
+        android:onClick="insert"
+        android:text="INSERT"
+
+
+        />
+
+    <Button
+        android:id="@+id/delete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20sp"
+        android:onClick="delete"
+        android:text="DELETE"
+
+
+        />
+
+    <Button
+        android:id="@+id/update"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20sp"
+        android:onClick="update"
+        android:text="UPDATE"
+
+
+        />
+
+    <Button
+        android:id="@+id/read"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20sp"
+        android:onClick="read"
+        android:text="READ"
+
+
+        />
+
+</LinearLayout>
